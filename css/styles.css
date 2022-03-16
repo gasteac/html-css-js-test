@@ -22,6 +22,14 @@ a{
     height: 60px;
 }
 
+.portada h1{
+    letter-spacing: 3px;
+}
+
+.portada p{
+    letter-spacing: 1px;
+}
+
 ul{
     list-style: none;
 }
@@ -108,7 +116,6 @@ ul{
 }
 
 .portada-conf h1{
-    margin-right: 120px;
     color: black;
 }
 
@@ -261,7 +268,10 @@ ul{
     display: none;
 }
 
+
+
 @media screen and (max-width: 760px){
+
     .div-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -293,21 +303,22 @@ ul{
     .moon i:hover{
         transform: scale(0.87);
     }
+
     .nav-main ul.nav-menu{
-        display: block;
+        display: none;
         position: fixed;
         top: 0;
         left: 0;
+        transform:translateX(-20px);
         background:rgb(107, 107, 107);
         height: 100%;
-        transform: translateX(-400px);
-        transition: transform 0.2s ease-in-out;
+        transition: transform 0.2s ease-out;
         padding: 10px;
         opacity: 0.9;
     }
 
     .nav-main ul.nav-menu.mostrar{
-        transform: translate(-20px);
+        display: block;
     }
 
    .nav-main .nav-menu-right{
