@@ -385,6 +385,9 @@ ul{
 }
 
 @media screen and (max-width: 505px){
+    .portada{
+        background: url("https://wallpapercave.com/download/wolf-wallpaper-1920x1080-a2DvnmY");
+    }
     .div-cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
