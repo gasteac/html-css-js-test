@@ -283,6 +283,10 @@ ul{
     letter-spacing: 3px;
 }
 
+.div-cards h1{
+    display: none;
+}
+
 @media screen and (max-width: 760px){
 
     .div-cards{
