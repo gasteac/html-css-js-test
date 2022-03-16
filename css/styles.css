@@ -98,6 +98,10 @@ ul{
     background-attachment: fixed;
 }
 
+.portada-mc .btn:hover{
+    background: rgb(146, 146, 146);
+}
+
 .div-cards img:hover{
     transform: scale(0.98);
 }
@@ -113,6 +117,10 @@ ul{
     height: 500px;
     background: url("https://wallpaperaccess.com/download/sad-wolf-632312") center/cover;
     background-attachment: fixed;
+}
+
+.portada-conf .btn:hover{
+    background: rgb(53, 94, 172);
 }
 
 .portada-conf h1{
