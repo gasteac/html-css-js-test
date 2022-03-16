@@ -194,6 +194,18 @@ ul{
     text-align: center;
 }
 
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 25px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+.menu-btn:hover{
+    color: rgb(223, 91, 91);
+}
 
 @media screen and (max-width: 760px){
     .div-cards{
@@ -217,6 +229,8 @@ ul{
         flex-direction: column;
         gap:25px;
         margin: 10px 0;
+    }
+    .moon{
         height: 200px;
     }
     .fa-10x{
@@ -225,13 +239,35 @@ ul{
     .moon i:hover{
         transform: scale(0.87);
     }
+    .nav-main ul.nav-menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:rgb(107, 107, 107);
+        height: 100%;
+        transform: translateX(-20px);
+        padding: 10px;
+        opacity: 0.9;
+    }
+
+   .nav-main .nav-menu-right{
+       margin-right: 50px;
+   }
+
     .footer{
-        margin-top: 50%;
         position: relative;
         width: 100%;
         background: #202020;
         padding: 10px;
     }
-
+    .menu-btn{
+        position: absolute;
+        cursor: pointer;
+        top: 25px;
+        right: 30px;
+        z-index: 2;
+        display: block;
+    }
 }
 
