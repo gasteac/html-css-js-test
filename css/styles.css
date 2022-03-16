@@ -22,10 +22,6 @@ a{
     height: 60px;
 }
 
-.portada h1{
-    letter-spacing: 3px;
-}
-
 .portada p{
     letter-spacing: 1px;
 }
@@ -276,7 +272,16 @@ ul{
     display: none;
 }
 
+.portada h1{
+    text-shadow: 2px 2px 2px#000000;
+    letter-spacing: 3px;
+}
 
+.portada h2{
+    display: none;
+    text-shadow: 2px 2px 2px#000000;
+    letter-spacing: 3px;
+}
 
 @media screen and (max-width: 760px){
 
@@ -368,12 +373,25 @@ ul{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 505px){
     .div-cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap:25px;
         margin: 10px 0;
     }
+    .portada h1{
+        display: none;
+    }
+    .portada h2{
+        display: block;
+    }
+    .portada p{
+        display: none;
+    }
+    .div-cards h1{
+        text-align: center;
+    }
+
 }
 
