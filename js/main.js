@@ -7,6 +7,7 @@ document.querySelector('.cerrar').addEventListener('click', () => {
 });
 
 ScrollReveal().reveal('.portada');
+ScrollReveal().reveal('.portada-mc');
 ScrollReveal().reveal('.div-cards');
 ScrollReveal().reveal('.card-banner');
 ScrollReveal().reveal('.socials');

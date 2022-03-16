@@ -77,6 +77,41 @@ ul{
     background-attachment: fixed;
 }
 
+.portada-mc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background: url("https://wallpaperaccess.com/download/sad-wolf-2632070") center/cover;
+    background-attachment: fixed;
+}
+
+.div-cards img:hover{
+    transform: scale(0.98);
+}
+
+.portada-conf{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background: url("https://wallpaperaccess.com/download/sad-wolf-632312") center/cover;
+    background-attachment: fixed;
+}
+
+.portada-conf h1{
+    margin-right: 120px;
+    color: black;
+}
+
 .btn{
     cursor: pointer;
     font-weight: bold;
@@ -106,6 +141,7 @@ ul{
 
 .div-cards img{
     width: 100%;
+    transition: transform 0.2s;
 }
 
 .div-cards h3{
@@ -185,11 +221,25 @@ ul{
 
 .footer{
     margin-top: 20px;
-    background: #202020;
+    background: #0e0e0e;
     padding: 10px;
 }
 
 .footer h3{
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.footer-mc{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background: #0e0e0e;
+    padding: 10px;
+}
+
+.footer-mc h3{
     margin-left: 10px;
     text-align: center;
 }
@@ -267,7 +317,14 @@ ul{
     .footer{
         position: relative;
         width: 100%;
-        background: #202020;
+        background: #0e0e0e;
+        padding: 10px;
+    }
+    .footer-mc{
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background: #0e0e0e;
         padding: 10px;
     }
     .menu-btn{
