@@ -283,7 +283,7 @@ ul{
     letter-spacing: 3px;
 }
 
-.div-cards h1{
+.div-cards h2{
     display: none;
 }
 
@@ -377,6 +377,10 @@ ul{
     }
 }
 
+.div-cards h2{
+    display: none;
+}
+
 @media screen and (max-width: 505px){
     .div-cards{
         display: grid;
@@ -393,7 +397,8 @@ ul{
     .portada p{
         display: none;
     }
-    .div-cards h1{
+    .div-cards h2{
+        display: block;
         text-align: center;
     }
 
