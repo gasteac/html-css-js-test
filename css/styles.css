@@ -329,6 +329,7 @@ ul{
         transition: transform 0.2s ease-out;
         padding: 10px;
         opacity: 0.9;
+        z-index: 2;
     }
 
     .nav-main ul.nav-menu.mostrar{
