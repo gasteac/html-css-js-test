@@ -24,6 +24,7 @@ a{
 
 .portada p{
     letter-spacing: 1px;
+    text-shadow: 2px 2px 2px black;
 }
 
 ul{
@@ -81,6 +82,7 @@ ul{
     background-attachment: fixed;
 }
 
+
 .portada-mc{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -127,11 +129,11 @@ ul{
     cursor: pointer;
     font-weight: bold;
     padding: 5px 20px;
-    background: #4e4e4e;
     font-size:20px;
     letter-spacing: 2px;
-    border: 1px solid #ffff;
+    border: 2px solid #ffff;
     margin: 20px;
+    text-shadow: 2px 2px 2px black;
 } 
 
 .btn:hover{
