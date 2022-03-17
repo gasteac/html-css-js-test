@@ -128,10 +128,12 @@ ul{
     border: 2px solid #ffff;
     margin: 20px;
     text-shadow: 2px 2px 2px black;
+    backdrop-filter: blur(2px);
 } 
 
 .btn:hover{
-    backdrop-filter: blur(2px);
+    border: 2px solid rgb(204, 204, 204);
+    color:rgb(204, 204, 204);
 } 
 
 .img-portada{
@@ -207,6 +209,14 @@ ul{
 
 .moon i:hover{
     transform: scale(1.1);
+}
+
+.footer a{
+    color: red;
+}
+
+.footer a:hover{
+    color: white;
 }
 
 .socials{
